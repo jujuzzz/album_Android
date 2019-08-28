@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/create_album"
+            android:icon="@android:drawable/ic_input_add"
+            app:showAsAction="always"
+            android:title="Create Album"/>
+
+    <item
+            android:id="@+id/search_album"
+            app:showAsAction="always"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Search Album"/>
+
+</menu>

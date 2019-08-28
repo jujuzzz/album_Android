@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/add_photo"
+            app:showAsAction="always"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Add Photo"/>
+
+    <item
+            android:id="@+id/delete_album"
+            app:showAsAction="always"
+            android:icon="@android:drawable/ic_delete"
+            android:title="Delete Album"/>
+
+    <item
+            app:showAsAction="always"
+            android:id="@+id/rename_album"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Rename Album"/>
+</menu>

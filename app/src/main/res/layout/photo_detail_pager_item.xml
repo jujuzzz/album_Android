@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:paddingHorizontal="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_margin="50dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/iv_photo"
+            android:scaleType="fitXY"
+            android:layout_width="300dp"
+            android:layout_height="300dp"/>
+
+    <LinearLayout
+            android:layout_alignBottom="@+id/iv_photo"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:paddingEnd="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/tv_person_tag_label"
+                    android:text="Person:"
+                    android:textSize="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_person_tags"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+        <LinearLayout
+                android:paddingStart="5dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/tv_location_tag_label"
+                    android:text="Location:"
+                    android:textSize="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_location_tags"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

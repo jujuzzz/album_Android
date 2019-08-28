@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/delete_photo"
+            android:icon="@android:drawable/ic_delete"
+            app:showAsAction="always"
+            android:title="Delete Photo"/>
+
+    <item
+            android:id="@+id/move_photo"
+            android:icon="@android:drawable/ic_input_get"
+            app:showAsAction="always"
+            android:title="Move Photo"/>
+
+    <item
+            android:id="@+id/add_person_tag"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Add Person Tag"/>
+
+    <item
+            android:id="@+id/add_location_tag"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Add Location Tag"/>
+
+    <item
+            android:id="@+id/delete_person_tag"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="Delete Person Tag"/>
+
+    <item
+            android:id="@+id/delete_location_tag"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="Delete Location Tag"/>
+
+</menu>
